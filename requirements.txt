@@ -1,1 +1,1 @@
-pyvesync @ git+https://github.com/N3ak/pyvesync@main
+./config/custom_components/vesync/pyvesync
