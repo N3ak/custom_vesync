@@ -1,1 +1,1 @@
-pyvesync @ git+https://github.com/N3ak/pyvesync.git@main
+pyvesync @ git+https://github.com/N3ak/pyvesync@main
