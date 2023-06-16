@@ -1,1 +1,1 @@
-pyvesync==2.1.6
+pyvesync @ git+https://github.com/N3ak/pyvesync.git@main
