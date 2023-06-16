@@ -10,9 +10,6 @@ from homeassistant.helpers.dispatcher import async_dispatcher_send
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 from pyvesync.vesync import VeSync
 
-import sys
-sys.path
-
 from .common import async_process_devices
 from .const import (
     DOMAIN,
