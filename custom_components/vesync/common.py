@@ -59,6 +59,12 @@ async def async_process_devices(hass, manager):
         redacted,
     )
 
+    _LOGGER.debug(
+        "The Problem is:",
+        import pyvesync,
+        pyvesync.__path__,
+    )
+
     if (
         manager.fans is None
         and manager.bulbs is None
