@@ -61,7 +61,6 @@ async def async_process_devices(hass, manager):
 
     _LOGGER.debug(
         "The Problem is:",
-        import pyvesync,
         pyvesync.__path__,
     )
 
