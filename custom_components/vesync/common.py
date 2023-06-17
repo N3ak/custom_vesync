@@ -4,8 +4,7 @@ import logging
 from homeassistant.components.diagnostics import async_redact_data
 from homeassistant.helpers.entity import Entity, ToggleEntity
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
-"""from pyvesync.vesyncfan import model_features"""
-import pyvesync
+from .pyvesync.vesyncfan import model_features
 
 from .const import (
     DOMAIN,
